@@ -29,14 +29,14 @@ jobs:
           git config --local user.name "MikeOwino"
           git add -A
           
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="reimagined-journey"
+          arr[1]="reimagined-journey"
+          arr[2]="reimagined-journey"
+          arr[3]="reimagined-journey"
+          arr[4]="reimagined-journey"
+          arr[5]="reimagined-journey"
+          arr[6]="reimagined-journey"
+          arr[7]="reimagined-journey"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
